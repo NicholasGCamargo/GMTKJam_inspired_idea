@@ -1,7 +1,7 @@
 /// @description player movement
 
 
-if (place_meeting(x, y+2, ground_tile)) {
+if (place_meeting(x , y+3, ground_tile)) {
 	y_movement = 0
 	if (keyboard_check(vk_space) && !jump_control) {
 		jump_control = true
@@ -11,7 +11,7 @@ if (place_meeting(x, y+2, ground_tile)) {
 	y_movement += fake_gravity
 }
 
-if (place_meeting(x, y+2, ground_tile)) {
+if (place_meeting(x, y+3, ground_tile)) {
 	xDirection = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 	x_movement = xDirection * player_speed
 	image_angle += -xDirection * player_speed
@@ -25,7 +25,3 @@ if (place_meeting(x, y+2, ground_tile)) {
 
 
 move_and_collide(x_movement, y_movement, ground_tile)
-
-if (x_movement != 0) {
-	image_xscale = sign(x_movement)
-}
