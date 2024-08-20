@@ -1,6 +1,5 @@
 /// @description player movement
 
-
 if (place_meeting(x , y+3, ground_tile)) {
 	y_movement = 0
 	if (keyboard_check(vk_space) && !jump_control) {
