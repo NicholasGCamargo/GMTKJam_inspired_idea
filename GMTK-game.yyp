@@ -39,6 +39,7 @@
     {"id":{"name":"ground_tile","path":"objects/ground_tile/ground_tile.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"DEATHZONE","path":"sprites/DEATHZONE/DEATHZONE.yy",},},
     {"id":{"name":"Finishit","path":"sprites/Finishit/Finishit.yy",},},
     {"id":{"name":"ground_tile_sprite","path":"sprites/ground_tile_sprite/ground_tile_sprite.yy",},},
@@ -48,6 +49,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

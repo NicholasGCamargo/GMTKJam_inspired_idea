@@ -1,4 +1,7 @@
-if (Player.y - y > 3 || Player.y - y < -3) {
+if (
+	Player.y - y > (sprite_height + Player.sprite_height + 3)
+	|| Player.y - y < -3
+) {
 	Player.y -= 2
 }
 
